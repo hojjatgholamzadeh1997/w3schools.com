@@ -45,7 +45,7 @@
       - style.css
     - js
       - tailwind css
-        - browser@4.js
+        - tailwindcss.js
     - About.txt
     - index.html
     - README.md
