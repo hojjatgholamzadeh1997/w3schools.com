@@ -38,7 +38,6 @@
         - source-sans-pro-v14-latin-700.woff2
         - SourceSansPro-Regular.woff2
       - images
-        - logo.png
       - favicon.png
     - css
       - fonts.css
