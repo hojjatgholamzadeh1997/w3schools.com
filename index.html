@@ -16,31 +16,126 @@
     <!-- Header -->
     <header>
       <!-- Header Up -->
-      <div class="py-2 border-b">
-        <div class="container mx-auto flex justify-between">
+      <div class="pr-2 border-b">
+        <div class="mx-auto flex justify-between">
           <!-- Header Up Left -->
-          <div class=""></div>
+          <div class="header-left flex gap-0 items-center">
+            <!-- Logo -->
+            <img
+              src="./assets/images/logo.svg"
+              alt="logo"
+              title="Home"
+              class="bg-white h-9 hover:cursor-pointer px-4"
+            >
+            <!-- Menu -->
+            <div
+              title="Tutorials and References"
+              class="hover:bg-[#04AA6D] hover:cursor-pointer hover:text-white h-full p-4 md:hidden"
+            >
+              <span class="text-sm">Menu</span>
+              <i class="bi bi-caret-down-fill text-xs"></i>
+            </div>
+            <!-- Tutorials -->
+            <div
+            title="Tutorials and References"
+            class="hover:bg-[#04AA6D] hover:cursor-pointer hover:text-white h-full p-4 hidden md:block"
+            >
+              <span class="text-sm lg:text-base">Tutorials</span>
+              <i class="bi bi-caret-down-fill text-xs"></i>
+            </div>
+            <!-- Exercises -->
+            <div
+            title="Exercises and Quizzes"
+            class="hover:bg-[#04AA6D] hover:cursor-pointer hover:text-white h-full p-4 hidden md:block"
+            >
+              <span class="text-sm lg:text-base">Exercises</span>
+              <i class="bi bi-caret-down-fill text-xs"></i>
+            </div>
+            <!-- Certificates -->
+            <div
+            title="Certificates"
+            class="hover:bg-[#04AA6D] hover:cursor-pointer hover:text-white h-full p-4 hidden md:block"
+            >
+              <span class="text-sm lg:text-base">Certificates</span>
+              <i class="bi bi-caret-down-fill text-xs"></i>
+            </div>
+            <!-- Search Icon -->
+            <div>
+              <i class="bi bi-search hover:cursor-pointer hover:bg-[#F1F1F1] py-1.5 px-2.5 rounded-full sm:hidden md:block md:ml-4 lg:hidden"></i>
+            </div>
+            <!-- Services -->
+            <div
+              title="Our Services"
+              class="hover:bg-[#04AA6D] hover:cursor-pointer hover:text-white h-full p-4 hidden lg:block"
+            >
+              <span class="text-sm lg:text-base">Services</span>
+              <i class="bi bi-caret-down-fill text-xs"></i>
+            </div>
+            <!-- Search -->
+            <div class="ml-2 relative hidden sm:block md:hidden lg:block">
+              <!-- Search Input -->
+              <input
+                type="text"
+                placeholder="Search..."
+                class="w-40 lg:w-44 border border-black/25 rounded-3xl py-1.5 px-5 outline-none placeholder:italic focus:border-[#04AA6D]"
+              >
+              <!-- Search Icon -->
+              <i class="bi bi-search absolute top-[1px] right-[1px] hover:cursor-pointer hover:bg-[#F1F1F1] py-1.5 px-2.5 rounded-full"></i>
+            </div>
+            <!-- Day/Night Toggler Button -->
+            <div class="rotate-180 sm:ml-6 md:ml-3 lg:ml-4 xl:ml-2">
+              <i
+                title="Toggle light/dark mode"
+                class="bi bi-circle-half hover:cursor-pointer hover:bg-[#F1F1F1] py-2 px-3 rounded-full"
+              ></i>
+            </div>
+          </div>
           <!-- Header Up Right -->
-          <div class="flex gap-3">
+          <div class="flex gap-2 py-2">
+            <!-- Plus Button -->
+            <button
+              type="button"
+              title="Become a PLUS user and unlock powerful features"
+              class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer px-3 hidden 2xl:inline-block"
+            >
+              <i class="bi bi-stars align-middle text-lg text-[#9763f6] mr-2"></i>
+              <span class="align-middle">Plus</span>
+            </button>
             <!-- Spaces Button -->
-            <button type="button" class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer py-2 px-4">
+            <button
+              type="button"
+              title="Get Your Own Website With W3Schools Spaces"
+              class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer px-3 hidden xl:inline-block"
+            >
               <i class="bi bi-code-slash align-middle text-lg text-[#9763f6] mr-2"></i>
-              <span class="align-middle text-15">Spaces</span>
+              <span class="align-middle">Spaces</span>
             </button>
             <!-- For Teachers Button -->
-            <button type="button" class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer py-2 px-4">
+            <button
+              type="button"
+              title="Contact us about W3Schools Academy for educational institutions"
+              class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer px-3 hidden xl:inline-block"
+            >
               <i class="bi bi-mortarboard-fill align-middle text-lg text-[#9763f6] mr-2"></i>
-              <span class="align-middle text-15">For Teachers</span>
+              <span class="align-middle">For Teachers</span>
             </button>
             <!-- Get Certified Button -->
-            <button type="button" class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer py-2 px-4">
+            <button
+              type="button"
+              title="W3Schools Certificates"
+              class="hover:bg-[#F1F1F1] rounded-3xl hover:cursor-pointer px-3 hidden sm:inline-block"
+            >
               <i class="bi bi-cart3 align-middle text-lg text-[#9763f6] mr-2"></i>
-              <span class="align-middle text-15">Get Certified</span>
+              <span class="align-middle text-sm lg:text-base">Get Certified</span>
             </button>
             <!-- Sign In Button -->
-            <button type="button" class="bg-[#04AA6D] hover:bg-[#059862] rounded-md hover:cursor-pointer py-2 px-4 text-white">
-              <i class="bi bi-person align-middle text-lg mr-2"></i>
-              <span class="align-middle text-15">Sign In</span>
+            <button
+              type="button"
+              title="Sign in to your account"
+              class="bg-[#04AA6D] hover:bg-[#059862] rounded-md hover:cursor-pointer px-3 py-2 text-white flex items-center"
+            >
+              <i class="bi bi-person text-lg mr-2 hidden sm:inline-block"></i>
+              <span class="text-sm">Sign In</span>
             </button>
           </div>
         </div>
@@ -52,7 +147,7 @@
     <main></main>
     <!-- Footer -->
     <footer></footer>
-    <!-- For not Supporting JavaScript -->
+    <!-- For not Supporting JS -->
     <div class="hidden noscript:block">Please enable JavaScript to use this app.</div>
     <!-- Tailwind CSS JS File -->
     <script src="./js/tailwind css/tailwindcss.js"></script>

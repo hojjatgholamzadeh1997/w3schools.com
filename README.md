@@ -31,6 +31,7 @@
     - assets
       - fonts
       - images
+        - logo.svg
       - favicon.png
     - css
       - fonts.css
