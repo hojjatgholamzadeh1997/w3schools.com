@@ -1,38 +1,52 @@
-/* fonts */
+/* Fonts */
+/* Fontawesome */
 @font-face {
   font-family: fontawesome;
   src: url(../assets/fonts/fontawesome.woff2);
 }
 
 .fontawesome {
-  font-family: fontawesome;
+  font-family: fontawesome, sans-serif;
 }
 
+/* Freckle Face */
 @font-face {
   font-family: freckle-face-v9-latin-regular;
   src: url(../assets/fonts/freckle-face-v9-latin-regular.woff2);
 }
 
 .freckle-face-v9-latin-regular {
-  font-family: freckle-face-v9-latin-regular;
+  font-family: freckle-face-v9-latin-regular, sans-serif;
 }
 
+/* Roboto Mono */
 @font-face {
   font-family: roboto-mono-v13-latin-500;
   src: url(../assets/fonts/roboto-mono-v13-latin-500.woff2);
 }
 
 .roboto-mono-v13-latin-500 {
-  font-family: roboto-mono-v13-latin-500;
+  font-family: roboto-mono-v13-latin-500, sans-serif;
 }
 
+/* Source Code Pro */
 @font-face {
   font-family: source-code-pro-v14-latin-regular;
   src: url(../assets/fonts/source-code-pro-v14-latin-regular.woff2);
 }
 
 .source-code-pro-v14-latin-regular {
-  font-family: source-code-pro-v14-latin-regular;
+  font-family: source-code-pro-v14-latin-regular, sans-serif;
+}
+
+/* Source Sans Pro */
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(../assets/fonts/SourceSansPro-Regular.woff2);
+}
+
+.SourceSansPro-Regular {
+  font-family: SourceSansPro-Regular, sans-serif;
 }
 
 @font-face {
@@ -41,7 +55,7 @@
 }
 
 .source-sans-pro-v14-latin-600 {
-  font-family: source-sans-pro-v14-latin-600;
+  font-family: source-sans-pro-v14-latin-600, sans-serif;
 }
 
 @font-face {
@@ -50,14 +64,5 @@
 }
 
 .source-sans-pro-v14-latin-700 {
-  font-family: source-sans-pro-v14-latin-700;
-}
-
-@font-face {
-  font-family: SourceSansPro-Regular;
-  src: url(../assets/fonts/SourceSansPro-Regular.woff2);
-}
-
-.SourceSansPro-Regular {
-  font-family: SourceSansPro-Regular;
+  font-family: source-sans-pro-v14-latin-700, sans-serif;
 }
