@@ -30,8 +30,15 @@
   - w3schools.com
     - assets
       - fonts
+        - FreckleFace-Regular.ttf
       - images
+        - classroom.webp
+        - codeeditor.webp
+        - colorpicker.webp
+        - dashboard.webp
+        - dynamicspaces.webp
         - logo.svg
+        - w3lynx_200.webp
       - favicon.png
     - css
       - fonts.css
