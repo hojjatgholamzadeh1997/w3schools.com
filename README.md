@@ -37,6 +37,7 @@
         - colorpicker.webp
         - dashboard.webp
         - dynamicspaces.webp
+        - img_nature_wide.jpg
         - logo.svg
         - w3css_templates.webp
         - w3lynx_200.webp
