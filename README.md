@@ -38,6 +38,7 @@
         - dashboard.webp
         - dynamicspaces.webp
         - logo.svg
+        - w3css_templates.webp
         - w3lynx_200.webp
       - favicon.png
     - css
